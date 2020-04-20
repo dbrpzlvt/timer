@@ -92,19 +92,9 @@ namespace timer
 			}
 		}
 
-		private void timer1_Tick(object sender, EventArgs e)
-		{
-			//pictureBox1.BackColor = pictureBox1.BackColor == Color.Red ? Color.FromName("Control") : Color.Red;
-		}
-
 		private void button2_Click(object sender, EventArgs e)
 		{
 			Form1_Load(sender, e);
 		}
-
-		//public void kostil(object data)
-		//{
-		//	pictureBox1.Visible = false;
-		//}
 	}
 }

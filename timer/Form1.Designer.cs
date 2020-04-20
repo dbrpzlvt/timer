@@ -28,10 +28,8 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.button1 = new System.Windows.Forms.Button();
@@ -52,12 +50,6 @@
 			this.richTextBox1.Size = new System.Drawing.Size(177, 257);
 			this.richTextBox1.TabIndex = 3;
 			this.richTextBox1.Text = "";
-			// 
-			// timer1
-			// 
-			this.timer1.Enabled = true;
-			this.timer1.Interval = 2000;
-			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
 			// 
 			// pictureBox2
 			// 
@@ -138,7 +130,7 @@
 			this.groupBox1.Size = new System.Drawing.Size(378, 429);
 			this.groupBox1.TabIndex = 8;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "Рабочая обрасть";
+			this.groupBox1.Text = "Рабочая область";
 			// 
 			// Form1
 			// 
@@ -165,7 +157,6 @@
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.PictureBox pictureBox2;
 		private System.Windows.Forms.RichTextBox richTextBox1;
-		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.RichTextBox richTextBox2;
 		private System.Windows.Forms.Label label1;
